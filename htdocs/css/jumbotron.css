@@ -28,3 +28,19 @@ body {
     padding: 0;
   }
 }
+
+.job-form {
+	width: 215px;
+}
+
+.email-form {
+	width: 215px;
+}
+
+.pw-form {
+	width: 215px;
+}
+
+.location-form {
+	width: 215px;
+}
