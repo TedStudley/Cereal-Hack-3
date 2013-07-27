@@ -38,6 +38,10 @@ body {
 	width: 215px;
 }
 
+.location-form {
+	width: 215px;
+}
+
 .email-form {
 	width: 215px;
 }
@@ -46,6 +50,19 @@ body {
 	width: 215px;
 }
 
-.location-form {
-	width: 215px;
+.job-div {
+	overflow: hidden;
 }
+
+.job-title {
+	height: 26px;
+}
+
+.job-location {
+	height: 20px;
+}
+
+.job-description {
+	height: 40px;
+}
+
