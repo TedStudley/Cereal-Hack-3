@@ -181,7 +181,7 @@ i.star-5 {
 }
 
 .person-picture {
-	float: right;
+	float: left;
 }
 
 @media all and (max-width: 800px) {
