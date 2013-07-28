@@ -11,11 +11,14 @@ $tropo_TEXT_TOK = "238554fd162c9244bfdaaf1f8f3a5f307d3941d9523a27312576f87f88367
 
 $tropo_api_url = "http://api.tropo.com/1.0/sessions";
 
-$fields = array(
-    'numberToDial'=>urlencode($_GET["numberToDial"]),
-    'network'=>urlencode($_GET["network"]),
-    'msg'=>urlencode($_GET["msg"])
-    );
+//$fields = array(
+    //'numberToDial'=>urlencode($_REQUEST["numberToDial"]),
+    //'network'=>urlencode($_REQUEST["network"]),
+    //'msg'=>urlencode($_REQUEST["msg"])
+    //);
+$numberToDial='19168421231';
+$network = 'SMS';
+$msg = "Hello+Nodda+Template+--+Tile+World+has+left+you+a+review%3a+http%3a%2f%2fwww.quickjobbr.com%2fprofile.html";
 //$goto = $_GET["goto"];
 
 //url-ify the data for the GET
@@ -30,10 +33,11 @@ $text_msg_url .= "&action=create";
 $text_msg_url .= "&token=$tropo_TEXT_TOK";
 
 // send url to Tropo
+//var_dump($text_msr_url);
 $html = file_get_contents($text_msg_url);
 
 // go to next page
-header("Location: http://www.quickjobbr.com/profile.html");
+//header("Location: http://www.quickjobbr.com/profile.html");
 
 // go back to member home 
 //$key = "HTTP_REFERER";
