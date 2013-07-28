@@ -6,8 +6,26 @@ body {
   font-family: "skolar", "Georgia", serif;
   font-size: 14px;
   line-height: 1.42857;
+  
 }
 
+
+
+.jumbotron { 
+    background-image:url(../images/shaking-hands.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	background-position: center; */
+  
+
+
+	}
+	
+	.jumbotron p {
+		padding-top: 40px
+		
+	}
 /* typography yo */
 
 h1, h2, h3, h4, h5, h6 {
