@@ -49,6 +49,11 @@ h1 {
 h2, h3, h4, h5 {
     font-weight: 600
 }
+p .italic {
+	font-family: "skolar",serif;
+	font-style: italic;
+	font-weight: 600;
+}
 
 /* Set widths on the navbar form inputs since otherwise they're 100% wide */
 .navbar-form input[type="text"],
