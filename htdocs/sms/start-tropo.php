@@ -13,6 +13,7 @@ $tropo_api_url = "http://api.tropo.com/1.0/sessions";
 
 $fields = array(
     'numberToDial'=>urlencode($_GET["numberToDial"]),
+    'network'=>urlencode($_GET["network"]),
     'msg'=>urlencode($_GET["msg"])
     );
 
@@ -32,13 +33,16 @@ $text_msg_url .= "&token=$tropo_TEXT_TOK";
 $html = file_get_contents($text_msg_url);
 
 // go back to member home 
-$key = "HTTP_REFERER";
-if (array_key_exists($key, $_SERVER)) {
-    header("Location: " . $_SERVER[$key]);
-}
-else {
-    header("Location: http://www.quickjobbr.com/memberhome.html");
-}
+//$key = "HTTP_REFERER";
+//if (array_key_exists($key, $_SERVER)) {
+    //header("Location: " . $_SERVER[$key]);
+//}
+//else {
+    //header("Location: http://www.quickjobbr.com/profile.html");
+//}
+
+// go to profile page that employer sees
+header("Location: http://www.quickjobbr.com/profile.html");
 ?>
 
 
