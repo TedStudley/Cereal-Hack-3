@@ -33,6 +33,7 @@ rtrim($fields_string,'&');
 $text_msg_url = $tropo_api_url . "?" . $fields_string;
 $text_msg_url .= "&action=create";
 $text_msg_url .= "&token=$tropo_TEXT_TOK";
+var_dump($text_msg_url);
 
 // send url to Tropo
 //var_dump($text_msr_url);
