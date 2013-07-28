@@ -1,26 +1,29 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
-  padding-top: 50px;
-  padding-bottom: 20px;
-  color: #404040;
-  font-family: "skolar", "Georgia", serif;
-  font-size: 14px;
-  line-height: 1.42857;
-  
+    padding-top: 50px;
+    padding-bottom: 20px;
+color:
+#404040;
+font-family: "skolar"
+    , "Georgia", serif;
+    font-size: 14px;
+    line-height: 1.42857;
+
 }
 
 
 
-.jumbotron { 
-    background-image:url(../images/shaking-hands.jpg);
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-attachment: fixed;
-	background-position: center; 
-	border-radius: 0px;
-  
-
-
+.jumbotron {
+background-image:
+    url(../images/shaking-hands.jpg);
+background-repeat:
+    no-repeat;
+    background-size: 100%;
+background-attachment:
+    fixed;
+background-position:
+    center;
+    border-radius: 0px;
 	}
 	
 	.jumbotron p {
@@ -30,127 +33,147 @@ body {
 
 a { 
 	color: #678CDB
-	
+}
+
+.jumbotron p {
+    padding-top: 40px
 }
 /* typography yo */
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: "ff-meta-web-pro", "Helvetica Neue", arial, sans-serif;
-	
+font-family: "ff-meta-web-pro"
+    , "Helvetica Neue", arial, sans-serif;
+
 }
 
 h1 {
-	font-weight: 700
+    font-weight: 700
 }
 
 h2, h3, h4, h5 {
-	font-weight: 600
+    font-weight: 600
 }
 
 /* Set widths on the navbar form inputs since otherwise they're 100% wide */
 .navbar-form input[type="text"],
 .navbar-form input[type="password"] {
-  width: 180px;
+    width: 180px;
 }
 
 /* Wrapping element */
 /* Set some basic padding to keep content from hitting the edges */
 .body-content {
-  padding-left: 15px;
-  padding-right: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
-  /* Let the jumbotron breathe */
-  .jumbotron {
-    margin-top: 20px;
-  }
-  /* Remove padding from wrapping element since we kick in the grid classes here */
-  .body-content {
-    padding: 0;
-  }
+    /* Let the jumbotron breathe */
+    .jumbotron {
+        margin-top: 20px;
+    }
+    /* Remove padding from wrapping element since we kick in the grid classes here */
+    .body-content {
+        padding: 0;
+    }
 }
 
 .job-form {
-	width: 215px;
+    width: 215px;
 }
 
 .location-form {
-	width: 215px;
+    width: 215px;
 }
 
 .email-form {
-	width: 215px;
+    width: 215px;
 }
 
 .pw-form {
-	width: 215px;
+    width: 215px;
 }
 
 .job-div {
-	overflow: hidden;
+overflow:
+    hidden;
 }
 
 .saved-job-div {
-	border-style: solid;
-	overflow:hidden;
+border-style:
+    solid;
+overflow:
+    hidden;
 }
 
 .job-title {
-	height: 50px;
+    height: 50px;
 }
 
 .job-employer {
-	height: 24px;
+    height: 24px;
 }
 
 .job-description {
-	height: 44px;
+    height: 44px;
 }
 /* logo stuff */
 
 .job-length-pay {
-	height:24px;
+    height:24px;
 }
 
 .clear {
-	clear: both;
+clear:
+    both;
 }
 
 .quickjobbr-logo-main {
-	max-width: 100%;
+    max-width: 100%;
 }
 
-.navbar-brand { 
-	background-image:url(../images/quickjobbr-icon-40.png);
-	background-repeat:no-repeat;
-	margin-top: 5px;
-	width: 41px;
-	height: 40px;
+.navbar-brand {
+background-image:
+    url(../images/quickjobbr-icon-40.png);
+background-repeat:
+    no-repeat;
+    margin-top: 5px;
+    width: 41px;
+    height: 40px;
 }
 
 .job-container {
-	background-color: #DDDDDD;
+background-color:
+#DDDDDD;
 }
 
 /* buttons! what! */
 
-.btn-inverse:active,
+.btn-inverse:
+active,
 .btn-inverse.active {
-  background-color: #E44424 \9;
+background-color:
+#E44424 \9;
 }
 
 .btn-flat {
-    filter:progid:DXImageTransform.Microsoft.Gradient(enabled='false');
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-    background-image:none;
+filter:
+progid:
+    DXImageTransform.Microsoft.Gradient(enabled='false');
+-webkit-box-shadow:
+    none;
+-moz-box-shadow:
+    none;
+box-shadow:
+    none;
+background-image:
+    none;
     border:0;
-	border-radius: 0px 0px 0px 0px;
+    border-radius: 0px 0px 0px 0px;
 }
 
+<<<<<<< HEAD
 .btn-primary {
     background-color: #5AA4BF;
     color: #FFFFFF;
@@ -161,87 +184,115 @@ h2, h3, h4, h5 {
 .btn-primary:active {
     background-color: #67BCDB;
     color: #FFFFFF;
-}
- /* form stuff */
- 
- .form-control {
-	 border-radius: 0px;
- }
+} 
 
- /* Rating stars! */
- 
- i.star {
-	background-image: url(../images/star-sprite.png);
-	display: inline-block;
-	height: 16px;
-	width: 80px;
-	background-position: -80px -48px;
+.btn-login {
+	background-color: #5AA4BF;
+	color: #FFFFFF;
 }
 
-i.star-1    { 
-	background-position: -64px -48px; 
+.btn-login: hover,
+.btn-login: focus,
+.btn-login:active {
+	background-color: #67BCDB;
+	color: #FFFFFF;
+}
+
+/* form stuff */
+
+.form-control {
+    border-radius: 0px;
+}
+
+/* Rating stars! */
+
+i.star {
+background-image:
+    url(../images/star-sprite.png);
+display:
+    inline-block;
+    height: 16px;
+    width: 80px;
+background-position:
+    -80px -48px;
+}
+
+i.star-1    {
+background-position:
+    -64px -48px;
 }
 i.star-2 {
-	background-position: -48px -48px;
+background-position:
+    -48px -48px;
 }
 i.star-3 {
-	background-position: -32px -48px;
+background-position:
+    -32px -48px;
 }
 i.star-4 {
-	background-position: -16px -48px;
+background-position:
+    -16px -48px;
 }
 i.star-5 {
-	background-position: 0px -48px;
+    background-position: 0px -48px;
 }
 
 .navbar-nav.nav-justified {
-    display:table;
+display:
+    table;
 }
 
-.navbar-nav.nav-justified > li{
-    float:none;
-    width:auto;
+.navbar-nav.nav-justified > li {
+float:
+    none;
+width:
+    auto;
 }
 
 /* Employee Specific css names */
 /* Initially the same as job-* */
 .person-name {
-	height: 30px;
+    height: 30px;
 }
 
 .person-description {
-	height: 44px;
+    height: 44px;
 }
 
 .person-picture {
-	float: left;
-	margin-right: 5px;
+float:
+    left;
+    margin-right: 5px;
 }
 
 .person-heading {
-	padding: 0px;
-	margin: 0px;
+    padding: 0px;
+    margin: 0px;
 }
 
 .person-row {
-	margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 @media all and (max-width: 800px) {
     .full {
-	display: none;
-    }    
+display:
+        none;
+    }
     .mobile {
-	display: block;
+display:
+        block;
     }
 }
 
 @media all and (min-width: 801px) {
     .full {
-	display: block;
-    }    
+display:
+        block;
+    }
     .mobile {
-	display: none;
+display:
+        none;
     }
 }
 
@@ -250,10 +301,12 @@ footer div.full h2 {
 }
 
 footer .list-group {
-    background-color: inherit;
+background-color:
+    inherit;
 }
 
 footer .list-group-item {
-    border: none;
+border:
+    none;
     padding-bottom: 0;
 }
