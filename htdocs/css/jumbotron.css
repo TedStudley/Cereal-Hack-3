@@ -78,6 +78,12 @@ h2, h3, h4, h5 {
 	font-weight: 600;
 }
 
+
+.review {
+	font-family: "skolar",serif;
+	font-style: italic;
+	font-weight: 400;
+}
 /* Set widths on the navbar form inputs since otherwise they're 100% wide */
 .navbar-form input[type="text"],
 .navbar-form input[type="password"] {
