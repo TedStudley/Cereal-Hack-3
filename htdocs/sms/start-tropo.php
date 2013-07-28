@@ -27,8 +27,9 @@ rtrim($fields_string,'&');
 $text_msg_url = $tropo_api_url . "?" . $fields_string;
 $text_msg_url .= "&action=create";
 $text_msg_url .= "&token=$tropo_TEXT_TOK";
+var_dump($text_msg_url);
 
-$html = file_get_contents($text_msg_url);
+//$html = file_get_contents($text_msg_url);
 
 ?>
 
