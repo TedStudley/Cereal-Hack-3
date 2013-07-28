@@ -49,7 +49,7 @@ h1 {
 h2, h3, h4, h5 {
     font-weight: 600
 }
-.italic p {
+.italic {
 	font-family: "skolar",serif;
 	font-style: italic;
 	font-weight: 600;
@@ -186,15 +186,20 @@ background-image:
     color: #FFFFFF;
 } 
 
-.btn-login {
-	background-color: #5AA4BF;
-	color: #FFFFFF;
+.btn-default {
+    background-color: #E44424;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active {
+    background-color: #FF4C4C !important;
 }
 
 .btn-login: hover,
 .btn-login: focus,
 .btn-login:active {
-	background-color: #67BCDB;
+	background-color: #FF4C4C;
 	color: #FFFFFF;
 }
 
@@ -202,6 +207,16 @@ background-image:
 
 .form-control {
     border-radius: 0px;
+}
+
+body.working-page {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.working-page-image {
+	width: 100%;
+	display: none;
 }
 
 /* Rating stars! */
