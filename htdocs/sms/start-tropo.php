@@ -16,7 +16,7 @@ $fields = array(
     'network'=>urlencode($_GET["network"]),
     'msg'=>urlencode($_GET["msg"])
     );
-$goto = $_GET["goto"];
+//$goto = $_GET["goto"];
 
 //url-ify the data for the GET
 $fields_string = "";
@@ -34,7 +34,7 @@ var_dump($text_msg_url);
 $html = file_get_contents($text_msg_url);
 
 // go to next page
-header("Location: $goto");
+header("Location: http://www.quickjobbr.com/profile.html");
 
 // go back to member home 
 //$key = "HTTP_REFERER";
