@@ -8,6 +8,20 @@ body {
   line-height: 1.42857;
 }
 
+/* typography yo */
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "ff-meta-web-pro", "Helvetica Neue", arial, sans-serif;
+	
+}
+
+h1 {
+	font-weight: 700
+}
+
+h2 {
+	font-weight: 400
+}
 
 /* Set widths on the navbar form inputs since otherwise they're 100% wide */
 .navbar-form input[type="text"],
@@ -55,14 +69,38 @@ body {
 }
 
 .job-title {
-	height: 26px;
+	height: 30px;
 }
 
-.job-location {
-	height: 20px;
+.job-employer {
+	height: 24px;
 }
 
 .job-description {
-	height: 40px;
+	height: 44px;
 }
 
+ /* Rating stars! */
+ i.star {
+	background-image: url(../images/star-sprite.png);
+	display: inline-block;
+	height: 16px;
+	width: 80px;
+	background-position: -80px -48px;
+}
+
+i.star-1    { 
+	background-position: -64px -48px; 
+}
+i.star-2 {
+	background-position: -48px -48px;
+}
+i.star-3 {
+	background-position: -32px -48px;
+}
+i.star-4 {
+	background-position: -16px -48px;
+}
+i.star-5 {
+	background-position: 0px -48px;
+}
