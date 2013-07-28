@@ -149,7 +149,7 @@ overflow:
 }
 
 .job-description {
-    height: 44px;
+    height: 39px;
 	margin-bottom: 15px;
 }
 /* logo stuff */
@@ -183,14 +183,14 @@ background-color:
 }
 
 a.animated {
-	-o-transition:highlight 250ms ease-out;
-	-ms-transition:highlight 250ms ease-out;
-	-moz-transition:highlight 250ms ease-out;
-	-webkit-transition:highlight 250ms ease-out;
-	transition:250ms;
+	-o-transition:color 250ms ease-out;
+	-ms-transition:color 250ms ease-out;
+	-moz-transition:color 250ms ease-out;
+	-webkit-transition:color 250ms ease-out;
+	transition:color 250ms ease-out;
 }
 
-a.animated:hover {highlight:true;}
+a.animated:hover {color:#2A6496;}
 
 /* buttons! what! */
 .btn-primary {
