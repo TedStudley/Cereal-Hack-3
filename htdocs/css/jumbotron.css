@@ -78,6 +78,13 @@ h2, h3, h4, h5 {
 	font-weight: 600;
 }
 
+
+.review {
+	font-family: "skolar",serif;
+	font-style: italic;
+	font-weight: 400;
+	margin-bottom: 15px;
+}
 /* Set widths on the navbar form inputs since otherwise they're 100% wide */
 .navbar-form input[type="text"],
 .navbar-form input[type="password"] {
@@ -143,7 +150,7 @@ overflow:
 }
 
 .job-description {
-    height: 44px;
+    height: 39px;
 	margin-bottom: 15px;
 }
 /* logo stuff */
@@ -177,14 +184,14 @@ background-color:
 }
 
 a.animated {
-	-o-transition:highlight 250ms ease-out;
-	-ms-transition:highlight 250ms ease-out;
-	-moz-transition:highlight 250ms ease-out;
-	-webkit-transition:highlight 250ms ease-out;
-	transition:250ms;
+	-o-transition:color 250ms ease-out;
+	-ms-transition:color 250ms ease-out;
+	-moz-transition:color 250ms ease-out;
+	-webkit-transition:color 250ms ease-out;
+	transition:color 250ms ease-out;
 }
 
-a.animated:hover {highlight:true;}
+a.animated:hover {color:#2A6496;}
 
 /* buttons! what! */
 .btn-primary {
@@ -378,12 +385,14 @@ footer div.full h2 {
 }
 
 footer .list-group {
-background-color:
-    inherit;
+    background-color: inherit;
 }
 
 footer .list-group-item {
-border:
-    none;
+    border: none;
     padding-bottom: 0;
+}
+
+.horizontal-buttons {
+    padding: 0 10px;
 }
