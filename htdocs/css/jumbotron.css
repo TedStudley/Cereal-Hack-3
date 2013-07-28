@@ -161,11 +161,21 @@ i.star-5 {
     float:none;
     width:auto;
 }
-@media screen and (max-width: 400px) {
-    footer {
+@media screen and (max-width: 800px) {
+    footer div.full {
 	display: none;
     }    
+    footer div.partial {
+	display: block;
+}
 
+@media screen and (min-width: 801px) {
+    footer div.full {
+	display: block;
+    }    
+    footer div.partial {
+	display: none;
+}
 
 /* Employee Specific css names */
 /* Initially the same as jon-* */
