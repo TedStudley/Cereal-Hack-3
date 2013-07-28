@@ -13,8 +13,9 @@ $tropo_TEXT_TOK = "238554fd162c9244bfdaaf1f8f3a5f307d3941d9523a27312576f87f88367
 $tropo_api_url = "http://api.tropo.com/1.0/sessions";
 
 $fields = array(
-    'numberToDial'=>urlencode("+" . $_POST["numberToDial"]),
-    'customerName'=>urlencode($_POST["customerName"])
+    'numberToDial'=>urlencode($_POST["numberToDial"]),
+    'customerName'=>urlencode($_POST["customerName"]),
+    'msg'=>urlencode($_POST["msg"])
     );
 
 //url-ify the data for the GET
@@ -27,9 +28,9 @@ rtrim($fields_string,'&');
 $text_msg_url = $tropo_api_url . "?" . $fields_string;
 $text_msg_url .= "&action=create";
 $text_msg_url .= "&token=$tropo_TEXT_TOK";
-var_dump($text_msg_url);
+//var_dump($text_msg_url);
 
-//$html = file_get_contents($text_msg_url);
+$html = file_get_contents($text_msg_url);
 
 ?>
 

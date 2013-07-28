@@ -10,7 +10,7 @@ $msg = $session->getParameters("msg");
 $tropo = new Tropo(); 
     
 $tropo->call($to, array('network'=>'SMS')); 
-$tropo->say("OMG ".$name.", ".$msg."!"); 
+$tropo->say("Hi ".$name.", ". $msg ); 
 
 return $tropo->RenderJson(); 
 

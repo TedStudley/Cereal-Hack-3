@@ -184,10 +184,10 @@ i.star-5 {
     .partial {
 	display: none;
     }
-}
+
 
 footer div.full {
-    background: #404040;
+    background-color: #404040;
 }
 
 footer div.full h2 {
