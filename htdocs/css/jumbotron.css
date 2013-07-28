@@ -176,7 +176,34 @@ background-color:
 #DDDDDD;
 }
 
+a.animated {
+	-o-transition:highlight 250ms ease-out;
+	-ms-transition:highlight 250ms ease-out;
+	-moz-transition:highlight 250ms ease-out;
+	-webkit-transition:highlight 250ms ease-out;
+	transition:250ms;
+}
+
+a.animated:hover {highlight:true;}
+
 /* buttons! what! */
+.btn-primary {
+	-webkit-transition-timing-function:ease-out;
+	-webkit-transition-duration:250ms;
+	transition-timing-function:ease-out;
+	trasition-duration:250ms;
+	background: rgba(0,0,0,0.5);
+	border-radius: 5px 5px;
+}
+
+.btn-default {
+	-webkit-transition-timing-function:ease-out;
+	-webkit-transition-duration:250ms;
+	transition-timing-function:ease-out;
+	transition-duration:250ms;
+	background: rgba(0,0,0,0.5);
+	border-radius: 5px 5px;
+}
 
 .btn-inverse:
 active,
