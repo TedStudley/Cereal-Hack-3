@@ -39,7 +39,7 @@
 				</ul>
  
 				<ul class="nav navbar-nav pull-right">
-					<li><a href="#profile">Welcome, <?php print $_SESSION['user'] ?>!</a></li>
+					<li><a href="#profile">Welcome, Tile World</a></li>
 					<li><a href="#signout">Sign Out</a></li>
 				</ul>
 			</div>
@@ -70,7 +70,7 @@
 					<a class="btn btn-default btn-flat" href="#">Save to Talent Pool</a>
 				</span>
 				<span>
-					<a class="btn btn-default btn-flat btn-offer" href="#">Make Offer</a>
+					<a class="btn btn-default btn-flat btn-offer" href="working.html">Make Offer</a>
 				</span>
 				</h1>
 			
@@ -79,7 +79,7 @@
 				</div>
 				<div class="col-lg-4 job-container-verbose">
 				<?php if (isset($_GET['review'])) { ?>
-	    <form method="post" class="form-inline">
+	    <form method="post" class="form-inline" action="profile.html">
             <p>Your rating:
 	    <i id="rating" class="star"></i>
 	    </p>
