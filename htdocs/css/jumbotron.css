@@ -28,12 +28,14 @@ font-family: "skolar"
 	}
 
 a { 
-	color: #678CDB
+	color: #67BCDB
 }
 
-.jumbotron p {
-    padding-top: 40px
+.row {
+	margin-right: 0px;
+	margin-left: 0px;
 }
+
 /* typography yo */
 
 h1, h2, h3, h4, h5, h6 {
@@ -288,6 +290,15 @@ width:
 
 .person-row {
     margin-bottom: 15px;
+}
+
+/* Talent Specific css names */
+.talent-job-title {
+
+}
+
+.talent-job-description {
+
 }
 
 @media all and (max-width: 800px) {
