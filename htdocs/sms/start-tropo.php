@@ -22,7 +22,7 @@ rtrim($fields_string,'&');
 
 // put the action and create at the end just so easier 
 // for human to read the url
-$text_msg_url $tropo_api_url . "?" . $fields_string;
+$text_msg_url = $tropo_api_url . "?" . $fields_string;
 $text_msg_url .= "&action=create";
 $text_msg_url .= "&token=$tropo_TEXT_TOK";
 
