@@ -79,7 +79,11 @@ h2 {
 .job-description {
 	height: 44px;
 }
+/* logo stuff */
 
+.navbar-brand { 
+	background-image:url(../images/quickjobbr-logo-40.png)
+}
 
 /* buttons! what! */
 
