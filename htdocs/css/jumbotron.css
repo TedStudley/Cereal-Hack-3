@@ -184,28 +184,33 @@ i.star-5 {
 	float: left;
 }
 
-@media screen and (max-width: 800px) {
+@media all and (max-width: 800px) {
     .full {
 	display: none;
     }    
-    .partial {
+    .mobile {
 	display: block;
+    }
 }
 
-@media screen and (min-width: 801px) {
+@media all and (min-width: 801px) {
     .full {
 	display: block;
     }    
-    .partial {
+    .mobile {
 	display: none;
     }
-
-
-footer div.full {
-    background-color: #404040;
 }
 
 footer div.full h2 {
-    font-size: 50%;
+    font-size: 100%;
 }
 
+footer .list-group {
+    background-color: inherit;
+}
+
+footer .list-group-item {
+    border: none;
+    padding-bottom: 0;
+}
