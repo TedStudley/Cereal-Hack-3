@@ -13,7 +13,7 @@ $tropo_api_url = "http://api.tropo.com/1.0/sessions";
 
 $fields = array(
     'numberToDial'=>urlencode("+" . $_POST["numberToDial"]),
-    'customerName'=>urlencode($_POST["customerName")
+    'customerName'=>urlencode($_POST["customerName"])
 );
 
 //url-ify the data for the GET
