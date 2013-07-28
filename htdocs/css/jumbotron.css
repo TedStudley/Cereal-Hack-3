@@ -14,12 +14,10 @@ font-family: "skolar"
 
 
 .jumbotron {
-	background-image:url(../images/shaking-hands.jpg);
+	background-image: none;
 	background-repeat: no-repeat;
     background-size: 100%;
     border-radius: 0px;
-	background-attachment: fixed;
-	background-position: top;
 	}
 	
 	.jumbotron p {
@@ -28,12 +26,14 @@ font-family: "skolar"
 	}
 
 a { 
-	color: #678CDB
+	color: #67BCDB
 }
 
-.jumbotron p {
-    padding-top: 40px
+.row {
+	margin-right: 0px;
+	margin-left: 0px;
 }
+
 /* typography yo */
 
 h1, h2, h3, h4, h5, h6 {
@@ -69,16 +69,18 @@ h2, h3, h4, h5 {
 }
 
 /* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 600px) {
     /* Let the jumbotron breathe */
     .jumbotron {
         margin-top: 20px;
+        background-image: url(../images/shaking-hands.jpg);
     }
     /* Remove padding from wrapping element since we kick in the grid classes here */
     .body-content {
         padding: 0;
     }
 }
+
 
 .job-form {
     width: 215px;
@@ -286,6 +288,15 @@ width:
 
 .person-row {
     margin-bottom: 15px;
+}
+
+/* Talent Specific css names */
+.talent-job-title {
+
+}
+
+.talent-job-description {
+
 }
 
 @media all and (max-width: 800px) {
