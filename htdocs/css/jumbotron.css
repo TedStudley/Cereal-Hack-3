@@ -35,6 +35,14 @@ font-family: "skolar"
 	
 }
 
+.marginT15 {
+	margin-top: 15px
+}
+
+.marginMinus15 {
+	margin-left: -15px
+}
+
 a { 
 	color: #67BCDB
 }
@@ -42,6 +50,11 @@ a {
 .row {
 	margin-right: 0px;
 	margin-left: 0px;
+}
+
+.thumbnail, .img-thumbnail {
+	border: none;
+	padding-left: 0px;
 }
 
 /* typography yo */
@@ -162,6 +175,16 @@ background-repeat:
 background-color:
 #DDDDDD;
 }
+
+a.animated {
+	-o-transition:highlight 250ms ease-out;
+	-ms-transition:highlight 250ms ease-out;
+	-moz-transition:highlight 250ms ease-out;
+	-webkit-transition:highlight 250ms ease-out;
+	transition:250ms;
+}
+
+a.animated:hover {highlight:true;}
 
 /* buttons! what! */
 .btn-primary {
