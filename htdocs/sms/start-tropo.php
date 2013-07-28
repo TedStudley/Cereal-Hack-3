@@ -35,6 +35,15 @@ $html = file_get_contents($text_msg_url);
 
 // go back to member home 
 var_dump(getallheaders());
+
+// don't know if this is safe:
+$key = "HTTP_REFERER";
+if (array_key_exists($key, $_SERVER)) {
+    header("Location: " . $_SERVER[$key]);
+}
+else {
+    header("Location: http://www.quickjobbr.com/memberhome.html");
+}
 ?>
 
 
