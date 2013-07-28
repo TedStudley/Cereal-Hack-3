@@ -94,6 +94,10 @@ h2, h3, h4, h5 {
 	clear: both;
 }
 
+.quickjobbr-logo-main {
+	max-width: 100%;
+}
+
 .navbar-brand { 
 	background-image:url(../images/quickjobbr-icon-40.png);
 	background-repeat:no-repeat;
@@ -156,4 +160,15 @@ i.star-5 {
 .navbar-nav.nav-justified > li{
     float:none;
     width:auto;
+}
+
+
+/* Employee Specific css names */
+/* Initially the same as jon-* */
+.person-name {
+	height: 30px;
+}
+
+.person-description {
+	height: 44px;
 }
