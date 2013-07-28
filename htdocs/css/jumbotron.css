@@ -152,3 +152,8 @@ i.star-5 {
     float:none;
     width:auto;
 }
+@media screen and (max-width: 400px) {
+    footer {
+	display: none;
+    }    
+}
