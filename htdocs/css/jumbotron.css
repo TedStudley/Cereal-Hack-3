@@ -68,6 +68,11 @@ h2 {
 	overflow: hidden;
 }
 
+.saved-job-div {
+	border-style: solid;
+	overflow:hidden;
+}
+
 .job-title {
 	height: 30px;
 }
