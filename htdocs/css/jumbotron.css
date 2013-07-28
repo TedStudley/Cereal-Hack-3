@@ -118,6 +118,11 @@ h2, h3, h4, h5 {
     border:0;
 }
 
+.btn-login {
+    background-color: #67BCDB;
+    color: #FFFFFF;
+}
+
  /* Rating stars! */
  
  i.star {
