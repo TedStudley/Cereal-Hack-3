@@ -8,6 +8,12 @@ body {
   line-height: 1.42857;
 }
 
+/* typography yo */
+
+h1 {
+	font-family: "ff-meta-web-pro", "Helvetica Neue", arial, sans-serif;
+	font-weight: 700;
+}
 
 /* Set widths on the navbar form inputs since otherwise they're 100% wide */
 .navbar-form input[type="text"],
