@@ -170,18 +170,18 @@ i.star-5 {
     width:auto;
 }
 @media screen and (max-width: 800px) {
-    div.full {
+    .full {
 	display: none;
     }    
-    div.mobile {
+    .partial {
 	display: block;
 }
 
 @media screen and (min-width: 801px) {
-    div.full {
+    .full {
 	display: block;
     }    
-    div.mobile {
+    .partial {
 	display: none;
     }
 }
