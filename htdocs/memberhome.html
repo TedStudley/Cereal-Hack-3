@@ -1,3 +1,4 @@
+<?php include 'login.php' ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -34,7 +35,7 @@
 					<li><a href="#tips">Job Tips</a></li>
 				</ul>
 				<ul class="nav navbar-nav pull-right">
-					<li><a href="#profile">Welcome, (user)!</a></li>
+					<li><a href="#profile">Welcome, <?php print $_SESSION['user'] ?>!</a></li>
 					<li><a href="#signout">Sign Out</a></li>
 				</ul>
 			</div>
@@ -66,19 +67,19 @@
 				<div class="row">
 					<div class="col-lg-4">
 						<div class="job-title"><h3>Sales Associate</h3></div>
-						<div class="job-location">at <em>The Home Depot</em></div>
+						<div class="job-employer">at <em>The Home Depot</em> <i class="star star-4 pull-right"></i></div>
 						<div class="job-description">Actually meggings lo-fi mlkshk, ea Portland +1 deep v hashtag cillum.</div>
 						<a class="btn btn-default" href="#">Apply Now &raquo;</a>
 					</div>
 					<div class="col-lg-4">
 						<div class="job-title"><h3>Department Supervisor</h3></div>
-						<div class="job-location">at <em>Toys "R" Us</em></div>
+						<div class="job-employer">at <em>Toys "R" Us</em> <i class="star star-3 pull-right"></i></div>
 						<div class="job-description">Sriracha ad exercitation mlkshk banh mi.</div>
 						<a class="btn btn-default" href="#">Apply Now &raquo;</a>
 					</div>
 					<div class="col-lg-4">
 						<div class="job-title"><h3>Warehouse Associate</h3></div>
-						<div class="job-location"></div>
+						<div class="job-employer">at <em>Fat Tony's Used Cars</em> <i class="star star-1 pull-right"></i></div>
 						<div class="job-description">Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</div>
 						<a class="btn btn-default" href="#">Apply Now &raquo;</a>
 					</div>
@@ -86,21 +87,20 @@
 				<div class="row">
 					<div class="col-lg-4">
 						<div class="job-title"><h3>Sales Associate</h3></div>
-						<div class="job-location">at <em>The Home Depot</em></div>
+						<div class="job-employer">at <em>The Home Depot</em> <i class="star star-4 pull-right"></i></div>
 						<div class="job-description">Actually meggings lo-fi mlkshk, ea Portland +1 deep v hashtag cillum.</div>
 						<a class="btn btn-default" href="#">Apply Now &raquo;</a>
 					</div>
 					<div class="col-lg-4">
 						<div class="job-title"><h3>Department Supervisor</h3></div>
-						<div class="job-location">at <em>Toys "R" Us</em></div>
+						<div class="job-employer">at <em>Toys "R" Us</em> <i class="star star-3 pull-right"></i></div>
 						<div class="job-description">Sriracha ad exercitation mlkshk banh mi.</div>
 						<a class="btn btn-default" href="#">Apply Now &raquo;</a>
-						</p>
 					</div>
 					<div class="col-lg-4">
-						<div class="job-title"><h3>Warehouse Associate</h3></div>
-						<div class="job-location"></div>
-						<div class="jog-description">Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</div>
+						<div class="job-title"><h3>Associate Hacker</h3></div>
+						<div class="job-employer">at <em>HackerLab</em> <i class="star star-5 pull-right"></i></div>
+						<div class="job-description">Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</div>
 						<a class="btn btn-default" href="#">Apply Now &raquo;</a>
 					</div>
 				</div>

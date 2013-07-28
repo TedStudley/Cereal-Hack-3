@@ -69,15 +69,15 @@ h2 {
 }
 
 .job-title {
-	height: 26px;
+	height: 30px;
 }
 
-.job-location {
-	height: 20px;
+.job-employer {
+	height: 24px;
 }
 
 .job-description {
-	height: 40px;
+	height: 44px;
 }
 
 
@@ -95,4 +95,30 @@ h2 {
     box-shadow: none;
     background-image:none;
     border:0;
+}
+
+ /* Rating stars! */
+ 
+ i.star {
+	background-image: url(../images/star-sprite.png);
+	display: inline-block;
+	height: 16px;
+	width: 80px;
+	background-position: -80px -48px;
+}
+
+i.star-1    { 
+	background-position: -64px -48px; 
+}
+i.star-2 {
+	background-position: -48px -48px;
+}
+i.star-3 {
+	background-position: -32px -48px;
+}
+i.star-4 {
+	background-position: -16px -48px;
+}
+i.star-5 {
+	background-position: 0px -48px;
 }
