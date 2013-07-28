@@ -27,6 +27,11 @@ body {
 		padding-top: 40px
 		
 	}
+
+a { 
+	color: #678CDB
+	
+}
 /* typography yo */
 
 h1, h2, h3, h4, h5, h6 {
@@ -146,14 +151,14 @@ h2, h3, h4, h5 {
 	border-radius: 0px 0px 0px 0px;
 }
 
-.btn-login {
+.btn-primary {
     background-color: #5AA4BF;
     color: #FFFFFF;
 }
 
-.btn-login:hover, 
-.btn-login:focus,
-.btn-login:active {
+.btn-primary:hover, 
+.btn-primary:focus,
+.btn-primary:active {
     background-color: #67BCDB;
     color: #FFFFFF;
 }
