@@ -188,6 +188,11 @@ i.star-5 {
 	float: left;
 }
 
+.person-heading {
+	padding: 0px;
+	margin: 0px;
+}
+
 @media all and (max-width: 800px) {
     .full {
 	display: none;
