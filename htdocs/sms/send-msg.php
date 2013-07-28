@@ -3,8 +3,8 @@
 require 'tropo.class.php';
 
 $session = new Session(); 
-$to = "+".$session->getParameters("numbertodial"); 
-$name = $session->getParameters("customername"); 
+$to = "+".$session->getParameters("numberToDial"); 
+$name = $session->getParameters("customerName"); 
 $msg = $session->getParameters("msg"); 
     
 $tropo = new Tropo(); 
