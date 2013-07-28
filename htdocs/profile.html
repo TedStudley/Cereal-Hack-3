@@ -80,9 +80,13 @@
 	    </p>
 	   <div class="hidden" id="comments">
 	     <p>Your Comments</p>
-	     <textarea class="form-control" rows="4"></textarea>
+	     <textarea class="form-control" name="reviewtext" rows="4"></textarea>
 	     <button type="submit" class="btn btn-default" style="margin-top: 10px" href="sms/start-tropo.php?goto=http%3a%2f%2fwww.quickjobbr.com%2fprofile.html&network=PSTN&numberToDial=19168421231&msg=Hello+Nodda+Template+--+Tile+World++has+left+you+a+review%3a+http%3a%2f%2fwww.quickjobbr.com%2fprofile.html">Complete Review</button>
 	   </div>
+				<?php } else if (isset($_POST['reviewtext'])) { ?>
+					<p style="margin-bottom: 0">Review by <a href="#">
+Computering Solutions: </a>&nbsp;<i class="star star-4"></i></p>
+					<p class="review"><?php print htmlspecialchars($_POST['reviewtext']) ?></p>
 				<?php } else { ?>
 					<p style="margin-bottom: 0">Review by <a href="#">Canet Computers: </a>&nbsp;<i class="star star-4"></i></p>
 					<p class="review">Works hard like a machine. Nodda has handled many jobs ranging from the monotonous dog walking to assisting in with open heart surgery.</p>
