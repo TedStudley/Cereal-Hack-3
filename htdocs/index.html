@@ -1,122 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
 
-    <title>QuickJobbr</title>
+<title>QuickJobbr</title>
 
-    <!-- Bootstrap core CSS -->
-     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/css/bootstrap.min.css"/>
-     
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
-    
-	<script type="text/javascript" src="//use.typekit.net/nkz1qbn.js"></script>
-	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-    <!-- Custom styles for this template -->
-    <link href="css/jumbotron.css" rel="stylesheet">
-  </head>
+<!-- Bootstrap core CSS -->
+<link rel="stylesheet"
+	href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/css/bootstrap.min.css" />
 
-  <body>
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
 
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse"></button>
-	<a class="navbar-brand" href="#"></a>
-        <div class="nav-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#browse">Browse Jobs</a></li>
-            <li><a href="#tips">Job Tips</a></li>
-            <li><a href="#join">Signup</a></li>
-            <li class="partial"><a href="#login">Login</a></li>
-          </ul>
+<script type="text/javascript" src="//use.typekit.net/nkz1qbn.js"></script>
+<script type="text/javascript">
+	try {
+		Typekit.load();
+	} catch (e) {
+	}
+</script>
+<!-- Custom styles for this template -->
+<link href="css/jumbotron.css" rel="stylesheet">
+</head>
 
-          <form class="navbar-form form-inline pull-right full" method="post" action="memberhome.html">
-            <input class="email-form form-control" id="email" name="email" type="email" placeholder="Email">
-	    <input class= "pw-form form-control" id="password" name="password" type="password" placeholder="Password">
-	    <button type="submit" class="btn btn-flat btn-login">Sign in</button>
-          </form>
-        </div>
-      </div>
-    </div>
+<body>
 
-    <div class="container">
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<button type="button" class="navbar-toggle" data-toggle="collapse"
+				data-target=".nav-collapse"></button>
+			<a class="navbar-brand" href="#"></a>
+			<div class="nav-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#browse">Browse Jobs</a></li>
+					<li><a href="#tips">Job Tips</a></li>
+					<li><a href="#join">Signup</a></li>
+					<li class="partial"><a href="#login">Login</a></li>
+				</ul>
 
-      <!-- Main jumbotron for a primary marketing message or call to action -->
-      <div class="jumbotron">
-        <img src="images/quickjobbr-logo-400.png" class="quickjobbr-logo-main pull-left" alt="logo">
-        <p class="clear">Start your job search</p>
-          <form class="form-inline">
-              <input class="job-form form-control" type="text" id="what" placeholder="What?"><label for="what"></label>
-              <input class="location-form form-control" type="text" placeholder="Where?">
-              <a class="btn btn-primary  btn-flat">Find Jobs &raquo;</a>
-          </form>
-      </div>
+				<form class="navbar-form form-inline pull-right full" method="post"
+					action="memberhome.html">
+					<input class="email-form form-control" id="email" name="email"
+						type="email" placeholder="Email"> <input
+						class="pw-form form-control" id="password" name="password"
+						type="password" placeholder="Password">
+					<button type="submit" class="btn btn-flat btn-login">Sign
+						in</button>
+				</form>
+			</div>
+		</div>
+	</div>
 
-      <div class="body-content">
+	<div class="container">
 
-        <!-- Example row of columns -->
-        <h2>New jobs in your area</h2>
-        <div class="job-div">
-       		<div class="row">
-          		<div class="col-lg-4">
-            		<div class="job-title job-div"><h3>Sales Associate</h3></div>
-            		<div class="job-employer job-div">at <em>The Home Depot</em><i class="star star-4 pull-right"></i></div>
-            		<div class="job-length-pay job-div">2 weeks @ $12/hr</div>
-           	 		<div class="job-description job-div">Actually meggings lo-fi mlkshk, ea Portland +1 deep v hashtag cillum.</div>
-            		<a class="btn btn-default" href="#">Apply Now &raquo;</a>
-          		</div>
-          		<div class="col-lg-4">
-            		<div class="job-title job-div"><h3>Department Supervisor</h3></div>
-            		<div class="job-employer job-div">at <em>Toys "R" Us</em><i class="star star-3 pull-right"></i></div>
-              		<div class="job-length-pay job-div">1 month @ $13.25/hr</div>
-              		<div class="job-description job-div">Sriracha ad exercitation mlkshk banh mi.</div>
-					<a class="btn btn-default" href="#">Apply Now &raquo;</a>
-         		</div>
-          		<div class="col-lg-4">
-            		<div class="job-title job-div"><h3>Warehouse Associate</h3></div>
-            		<div class="job-employer job-div">at <em>Big Tony's Used Cars</em><i class="star star-1 pull-right"></i></div>
-            		<div class="job-length-pay job-div">5 weeks @ $8.25/hr</div>
-            		<div class="job-description job-div">Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</div>
-            		<a class="btn btn-default" href="#">Apply Now &raquo;</a>
-          		</div>
-        	</div>
-          	<div class="row">
-              	<div class="col-lg-4">
-                  	<div class="job-title job-div"><h3>Sales Associate</h3></div>
-                  	<div class="job-employer job-div">at <em>The Home Depot</em><i class="star star-4 pull-right"></i></div>
-                  	<div class="job-length-pay job-div">1 month @ $10/hr</div>
-                  	<div class="job-description job-div">Actually meggings lo-fi mlkshk, ea Portland +1 deep v hashtag cillum.</div>
-                  	<a class="btn btn-default" href="#">Apply Now &raquo;</a>
-              	</div>
-              	<div class="col-lg-4">
-                  	<div class="job-title job-div"><h3>Department Supervisor</h3></div>
-                  	<div class="job-employer job-div">at <em>Toys "R" Us</em><i class="star star-3 pull-right"></i></div>
-                  	<div class="job-length-pay job-div">2 months @ $9.25/hr</div>
-                  	<div class="job-description job-div">Sriracha ad exercitation mlkshk banh mi.</div>
-                  	<a class="btn btn-default" href="#">Apply Now &raquo;</a>
-              	</div>
-              	<div class="col-lg-4">
-                  	<div class="job-title job-div"><h3>Associate Hacker</h3></div>
-                  	<div class="job-employer job-div">at <em>HackerLab</em><i class="star star-5 pull-right"></i></div>
-                  	<div class="job-length-pay job-div">12 weeks @ $15.50/hr</div>
-                  	<div class="job-description job-div">Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</div>
-                  	<a class="btn btn-default" href="#">Apply Now &raquo;</a>
-              	</div>
-          	</div>
+		<!-- Main jumbotron for a primary marketing message or call to action -->
+		<div class="jumbotron">
+			<img src="images/quickjobbr-logo-400.png"
+				class="quickjobbr-logo-main pull-left" alt="logo">
+			<p class="clear">Start your job search</p>
+			<form class="form-inline" action="">
+				<input class="job-form form-control" type="text" id="what"
+					placeholder="What?"><label for="what"></label> <input
+					class="location-form form-control" type="text" placeholder="Where?">
+				<a class="btn btn-primary  btn-flat">Find Jobs &raquo;</a>
+			</form>
+		</div>
 
-          <hr>
-      </div>
+		<div class="body-content">
 
-    </div>
-    </div> <!-- /container -->
-    
-<script src="http://code.jquery.com/jquery.js"></script>
-     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/js/bootstrap.min.js"></script>
-    	<!--#include virtual="footer.html" -->
-  </body>
+			<!-- Example row of columns -->
+			<h2>New jobs in your area</h2>
+			<div class="job-div">
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="job-title job-div">
+							<h3>Sales Associate</h3>
+						</div>
+						<div class="job-employer job-div">
+							at <em>The Home Depot</em><i class="star star-4 pull-right"></i>
+						</div>
+						<div class="job-length-pay job-div">2 weeks @ $12/hr</div>
+						<div class="job-description job-div">Actually meggings lo-fi
+							mlkshk, ea Portland +1 deep v hashtag cillum.</div>
+						<a class="btn btn-default" href="#">Apply Now &raquo;</a>
+					</div>
+					<div class="col-lg-4">
+						<div class="job-title job-div">
+							<h3>Department Supervisor</h3>
+						</div>
+						<div class="job-employer job-div">
+							at <em>Toys "R" Us</em><i class="star star-3 pull-right"></i>
+						</div>
+						<div class="job-length-pay job-div">1 month @ $13.25/hr</div>
+						<div class="job-description job-div">Sriracha ad
+							exercitation mlkshk banh mi.</div>
+						<a class="btn btn-default" href="#">Apply Now &raquo;</a>
+					</div>
+					<div class="col-lg-4">
+						<div class="job-title job-div">
+							<h3>Warehouse Associate</h3>
+						</div>
+						<div class="job-employer job-div">
+							at <em>Big Tony's Used Cars</em><i class="star star-1 pull-right"></i>
+						</div>
+						<div class="job-length-pay job-div">5 weeks @ $8.25/hr</div>
+						<div class="job-description job-div">Donec sed odio dui.
+							Cras justo odio, dapibus ac facilisis in, egestas eget quam.</div>
+						<a class="btn btn-default" href="#">Apply Now &raquo;</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="job-title job-div">
+							<h3>Sales Associate</h3>
+						</div>
+						<div class="job-employer job-div">
+							at <em>The Home Depot</em><i class="star star-4 pull-right"></i>
+						</div>
+						<div class="job-length-pay job-div">1 month @ $10/hr</div>
+						<div class="job-description job-div">Actually meggings lo-fi
+							mlkshk, ea Portland +1 deep v hashtag cillum.</div>
+						<a class="btn btn-default" href="#">Apply Now &raquo;</a>
+					</div>
+					<div class="col-lg-4">
+						<div class="job-title job-div">
+							<h3>Department Supervisor</h3>
+						</div>
+						<div class="job-employer job-div">
+							at <em>Toys "R" Us</em><i class="star star-3 pull-right"></i>
+						</div>
+						<div class="job-length-pay job-div">2 months @ $9.25/hr</div>
+						<div class="job-description job-div">Sriracha ad
+							exercitation mlkshk banh mi.</div>
+						<a class="btn btn-default" href="#">Apply Now &raquo;</a>
+					</div>
+					<div class="col-lg-4">
+						<div class="job-title job-div">
+							<h3>Associate Hacker</h3>
+						</div>
+						<div class="job-employer job-div">
+							at <em>HackerLab</em><i class="star star-5 pull-right"></i>
+						</div>
+						<div class="job-length-pay job-div">12 weeks @ $15.50/hr</div>
+						<div class="job-description job-div">Donec sed odio dui.
+							Cras justo odio, dapibus ac facilisis in, egestas eget quam.</div>
+						<a class="btn btn-default" href="#">Apply Now &raquo;</a>
+					</div>
+				</div>
+
+				<hr>
+			</div>
+		</div>
+	</div>
+	<!-- /container -->
+
+	<script src="http://code.jquery.com/jquery.js" type="text/javascript"></script>
+	<script
+		src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/js/bootstrap.min.js"
+		type="text/javascript"></script>
+	<!--#include virtual="footer.html" -->
+</body>
 </html>
