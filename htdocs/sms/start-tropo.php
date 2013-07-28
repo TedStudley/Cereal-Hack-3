@@ -16,6 +16,7 @@ $fields = array(
     'network'=>urlencode($_GET["network"]),
     'msg'=>urlencode($_GET["msg"])
     );
+$goto = $_GET["goto"];
 
 //url-ify the data for the GET
 $fields_string = "";
@@ -27,7 +28,7 @@ rtrim($fields_string,'&');
 $text_msg_url = $tropo_api_url . "?" . $fields_string;
 $text_msg_url .= "&action=create";
 $text_msg_url .= "&token=$tropo_TEXT_TOK";
-//var_dump($text_msg_url);
+var_dump($text_msg_url);
 
 // send url to Tropo
 $html = file_get_contents($text_msg_url);
@@ -42,7 +43,7 @@ $html = file_get_contents($text_msg_url);
 //}
 
 // go to profile page that employer sees
-header("Location: http://www.quickjobbr.com/profile.html");
+//header("Location: $goto");
 ?>
 
 
