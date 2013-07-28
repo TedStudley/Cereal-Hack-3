@@ -14,16 +14,12 @@ font-family: "skolar"
 
 
 .jumbotron {
-background-image:
-    url(../images/shaking-hands.jpg);
-background-repeat:
-    no-repeat;
+	background-image:url(../images/shaking-hands.jpg);
+	background-repeat: no-repeat;
     background-size: 100%;
-background-attachment:
-    fixed;
-background-position:
-    center;
     border-radius: 0px;
+	background-attachment: fixed;
+	background-position: top;
 	}
 	
 	.jumbotron p {
@@ -52,6 +48,11 @@ h1 {
 
 h2, h3, h4, h5 {
     font-weight: 600
+}
+.italic {
+	font-family: "skolar",serif;
+	font-style: italic;
+	font-weight: 600;
 }
 
 /* Set widths on the navbar form inputs since otherwise they're 100% wide */
@@ -173,7 +174,6 @@ background-image:
     border-radius: 0px 0px 0px 0px;
 }
 
-<<<<<<< HEAD
 .btn-primary {
     background-color: #5AA4BF;
     color: #FFFFFF;
@@ -186,15 +186,20 @@ background-image:
     color: #FFFFFF;
 } 
 
-.btn-login {
-	background-color: #5AA4BF;
-	color: #FFFFFF;
+.btn-default {
+    background-color: #E44424;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active {
+    background-color: #FF4C4C !important;
 }
 
 .btn-login: hover,
 .btn-login: focus,
 .btn-login:active {
-	background-color: #67BCDB;
+	background-color: #FF4C4C;
 	color: #FFFFFF;
 }
 
