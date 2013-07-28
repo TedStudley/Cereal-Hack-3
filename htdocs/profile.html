@@ -78,9 +78,21 @@
 					<img alt="rosa" src="images/rosa.jpg"  class="img-thumbnail person-picture">
 				</div>
 				<div class="col-lg-4 job-container-verbose">
+				<?php if (isset($_GET['review'])) { ?>
+	    <form method="post" class="form-inline">
+            <p>Your rating:
+	    <i id="rating" class="star"></i>
+	    </p>
+	   <div class="hidden" id="comments">
+	     <p>Your Comments</p>
+	     <textarea class="form-control" rows="4"></textarea>
+	     <button type="submit" class="btn-primary btn-large">Complete Review</button>
+	   </div>
+				<?php } else { ?>
 					<i class="star star-4 pull-left"></i><br>
 					<p>Works hard like a machine. Nodda has handled many jobs ranging from the monotonous dog walking to assisting in with open heart surgery.</p>
 					<p>Nadda has mastered the art of work life balance by finding enlightenment at the early age of 6 when she realize that it was she who took the cookie from the cookie jar.</p>
+				<?php } ?>
 				</div>
 			</div>
 			
@@ -115,5 +127,6 @@
 
 <script src="http://code.jquery.com/jquery.js"></script>
 <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/js/bootstrap.min.js"></script>
+<script src="js/rating.js"></script>
 </body>
 </html>
