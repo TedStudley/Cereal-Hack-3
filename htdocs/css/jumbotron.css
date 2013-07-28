@@ -173,33 +173,9 @@ i.star-5 {
     float:none;
     width:auto;
 }
-@media screen and (max-width: 800px) {
-    .full {
-	display: none;
-    }    
-    .partial {
-	display: block;
-}
-
-@media screen and (min-width: 801px) {
-    .full {
-	display: block;
-    }    
-    .partial {
-	display: none;
-    }
-
-
-footer div.full {
-    background-color: #404040;
-}
-
-footer div.full h2 {
-    font-size: 50%;
-}
 
 /* Employee Specific css names */
-/* Initially the same as jon-* */
+/* Initially the same as job-* */
 .person-name {
 	height: 30px;
 }
@@ -209,5 +185,36 @@ footer div.full h2 {
 }
 
 .person-picture {
-	float: right;
+	float: left;
+}
+
+@media all and (max-width: 800px) {
+    .full {
+	display: none;
+    }    
+    .mobile {
+	display: block;
+    }
+}
+
+@media all and (min-width: 801px) {
+    .full {
+	display: block;
+    }    
+    .mobile {
+	display: none;
+    }
+}
+
+footer div.full h2 {
+    font-size: 100%;
+}
+
+footer .list-group {
+    background-color: inherit;
+}
+
+footer .list-group-item {
+    border: none;
+    padding-bottom: 0;
 }
