@@ -79,11 +79,16 @@ h2 {
 .job-description {
 	height: 44px;
 }
+/* logo stuff */
 
 .job-length-pay {
 	height:24px;
 }
 
+.navbar-brand { 
+	background-image:url(../images/quickjobbr-logo-40.png);
+	background-repeat:no-repeat;
+}
 
 /* buttons! what! */
 
@@ -125,4 +130,13 @@ i.star-4 {
 }
 i.star-5 {
 	background-position: 0px -48px;
+}
+
+.navbar-nav.nav-justified {
+    display:table;
+}
+
+.navbar-nav.nav-justified > li{
+    float:none;
+    width:auto;
 }
