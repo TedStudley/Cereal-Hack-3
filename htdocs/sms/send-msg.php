@@ -1,13 +1,18 @@
-<?php
+<?php 
 
 require 'tropo.class.php';
 
-$tropo = new Tropo();
+$session = new Session(); 
+$to = "+".$session->getParameters("numbertodial"); 
+$name = $session->getParameters("customername"); 
+$msg = $session->getParameters("msg"); 
+    
+$tropo = new Tropo(); 
+    
+$tropo->call($to, array('network'=>'SMS')); 
+$tropo->say("OMG ".$name.", ".$msg."!"); 
 
-$tropo->call("+19168421231", array('network'=>'SMS'));
-$tropo->say("Tag, you're it!");
+return $tropo->RenderJson(); 
 
-$tropo->RenderJson();
-?>
-
+?> 
 
