@@ -33,6 +33,9 @@ var_dump($text_msg_url);
 // send url to Tropo
 $html = file_get_contents($text_msg_url);
 
+// go to next page
+header("Location: $goto");
+
 // go back to member home 
 //$key = "HTTP_REFERER";
 //if (array_key_exists($key, $_SERVER)) {
@@ -42,8 +45,6 @@ $html = file_get_contents($text_msg_url);
     //header("Location: http://www.quickjobbr.com/profile.html");
 //}
 
-// go to profile page that employer sees
-//header("Location: $goto");
 ?>
 
 
