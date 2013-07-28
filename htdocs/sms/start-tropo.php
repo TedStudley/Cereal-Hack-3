@@ -16,9 +16,11 @@ $tropo_api_url = "http://api.tropo.com/1.0/sessions";
     //'network'=>urlencode($_REQUEST["network"]),
     //'msg'=>urlencode($_REQUEST["msg"])
     //);
-$numberToDial='19168421231';
-$network = 'SMS';
-$msg = "Hello+Nodda+Template+--+Tile+World+has+left+you+a+review%3a+http%3a%2f%2fwww.quickjobbr.com%2fprofile.html";
+$fields = array(
+    'numberToDial'=>'19168421321',
+    'network'=>'SMS',
+    'msg'=>"Hello+Nodda+Template+--+Tile+World+has+left+you+a+review%3a+http%3a%2f%2fwww.quickjobbr.com%2fprofile.html"
+    );
 //$goto = $_GET["goto"];
 
 //url-ify the data for the GET
