@@ -10,9 +10,17 @@ body {
 
 /* typography yo */
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
 	font-family: "ff-meta-web-pro", "Helvetica Neue", arial, sans-serif;
-	font-weight: 700;
+	
+}
+
+h1 {
+	font-weight: 700
+}
+
+h2 {
+	font-weight: 400
 }
 
 /* Set widths on the navbar form inputs since otherwise they're 100% wide */
