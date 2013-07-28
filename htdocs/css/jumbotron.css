@@ -19,8 +19,8 @@ h1 {
 	font-weight: 700
 }
 
-h2 {
-	font-weight: 400
+h2, h3, h4, h5 {
+	font-weight: 600
 }
 
 /* Set widths on the navbar form inputs since otherwise they're 100% wide */
@@ -68,6 +68,11 @@ h2 {
 	overflow: hidden;
 }
 
+.saved-job-div {
+	border-style: solid;
+	overflow:hidden;
+}
+
 .job-title {
 	height: 30px;
 }
@@ -79,7 +84,19 @@ h2 {
 .job-description {
 	height: 44px;
 }
+/* logo stuff */
 
+.job-length-pay {
+	height:24px;
+}
+
+.navbar-brand { 
+	background-image:url(../images/quickjobbr-icon-40.png);
+	background-repeat:no-repeat;
+	margin-top: 5px;
+	width: 41px;
+	height: 40px;
+}
 
 /* buttons! what! */
 
@@ -121,4 +138,13 @@ i.star-4 {
 }
 i.star-5 {
 	background-position: 0px -48px;
+}
+
+.navbar-nav.nav-justified {
+    display:table;
+}
+
+.navbar-nav.nav-justified > li{
+    float:none;
+    width:auto;
 }

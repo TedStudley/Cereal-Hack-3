@@ -1,4 +1,1 @@
-<Files *.html>
-  DefaultType text/html
-  DefaultType application/x-httpd-php
-</Files>
+AddType application/x-httpd-php .html
