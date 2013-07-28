@@ -4,13 +4,12 @@ require 'tropo.class.php';
 
 $session = new Session(); 
 $to = "+".$session->getParameters("numberToDial"); 
-$name = $session->getParameters("customerName"); 
 $msg = $session->getParameters("msg"); 
-$msg = $session->getParameters("msg"); 
+$network = $session->getParameters("network"); 
     
 $tropo = new Tropo(); 
     
-$tropo->call($to, array('network'=>'PSTN')); 
+$tropo->call($to, array('network'=>'SMS')); 
 $tropo->say("Hi ".$name.", ". $msg ); 
 
 return $tropo->RenderJson(); 
