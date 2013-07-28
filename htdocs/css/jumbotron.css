@@ -163,6 +163,16 @@ background-color:
 #DDDDDD;
 }
 
+a.animated {
+	-o-transition:highlight 250ms ease-out;
+	-ms-transition:highlight 250ms ease-out;
+	-moz-transition:highlight 250ms ease-out;
+	-webkit-transition:highlight 250ms ease-out;
+	transition:250ms;
+}
+
+a.animated:hover {highlight:true;}
+
 /* buttons! what! */
 .btn-primary {
 	-webkit-transition-timing-function:ease-out;
