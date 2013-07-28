@@ -123,9 +123,17 @@ h2, h3, h4, h5 {
 }
 
 .btn-login {
+    background-color: #5AA4BF;
+    color: #FFFFFF;
+}
+
+.btn-login:hover, 
+.btn-login:focus,
+.btn-login:active {
     background-color: #67BCDB;
     color: #FFFFFF;
 }
+
 
  /* Rating stars! */
  
