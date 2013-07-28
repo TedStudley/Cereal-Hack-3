@@ -162,24 +162,28 @@ i.star-5 {
     width:auto;
 }
 @media screen and (max-width: 800px) {
-    footer div.full {
+    div.full {
 	display: none;
     }    
-    footer div.small {
+    div.mobile {
 	display: block;
 }
 
 @media screen and (min-width: 801px) {
-    footer div.full {
+    div.full {
 	display: block;
     }    
-    footer div.small {
+    div.mobile {
 	display: none;
+    }
 }
 
 footer div.full {
-    font-size: 50%;
     background: #404040;
+}
+
+footer div.full h2 {
+    font-size: 50%;
 }
 
 /* Employee Specific css names */
