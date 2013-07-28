@@ -16,6 +16,7 @@ $fields = array(
     'network'=>urlencode($_GET["network"]),
     'msg'=>urlencode($_GET["msg"])
     );
+$goto = $_GET["goto"];
 
 //url-ify the data for the GET
 $fields_string = "";
@@ -42,7 +43,7 @@ $html = file_get_contents($text_msg_url);
 //}
 
 // go to profile page that employer sees
-header("Location: http://www.quickjobbr.com/profile.html");
+header("Location: $goto");
 ?>
 
 
