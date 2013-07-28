@@ -204,6 +204,16 @@ background-image:
     border-radius: 0px;
 }
 
+body.working-page {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.working-page-image {
+	width: 100%;
+	display: none;
+}
+
 /* Rating stars! */
 
 i.star {
