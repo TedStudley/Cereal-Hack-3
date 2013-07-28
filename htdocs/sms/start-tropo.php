@@ -12,9 +12,9 @@ $tropo_TEXT_TOK = "238554fd162c9244bfdaaf1f8f3a5f307d3941d9523a27312576f87f88367
 $tropo_api_url = "http://api.tropo.com/1.0/sessions";
 
 $fields = array(
-    'numberToDial'=>urlencode($_POST["numberToDial"),
+    'numberToDial'=>urlencode("+" . $_POST["numberToDial"),
     'customerName'=>urlencode($_POST["customerName")
-    );
+);
 
 //url-ify the data for the GET
 foreach($fields as $key=>$value) { $fields_string .= $key.'='.$value.'&'; }
