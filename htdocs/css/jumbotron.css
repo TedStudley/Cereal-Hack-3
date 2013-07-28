@@ -25,6 +25,16 @@ font-family: "skolar"
 		
 	}
 
+.marginB15 {
+	margin-bottom: 15px
+	
+}
+
+.marginB20 {
+	margin-bottom: 20px
+	
+}
+
 a { 
 	color: #67BCDB
 }
@@ -120,6 +130,7 @@ overflow:
 
 .job-description {
     height: 44px;
+	margin-bottom: 15px;
 }
 /* logo stuff */
 
