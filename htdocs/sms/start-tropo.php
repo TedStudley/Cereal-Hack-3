@@ -30,8 +30,20 @@ $text_msg_url .= "&action=create";
 $text_msg_url .= "&token=$tropo_TEXT_TOK";
 //var_dump($text_msg_url);
 
+// send url to Tropo
 $html = file_get_contents($text_msg_url);
 
+// go back to member home 
+var_dump(getallheaders());
+
+// don't know if this is safe:
+$key = "HTTP_REFERER";
+if (array_key_exists($key, $_SERVER)) {
+    header("Location: " . $_SERVER[$key]);
+}
+else {
+    header("Location: http://www.quickjobbr.com/memberhome.html");
+}
 ?>
 
 

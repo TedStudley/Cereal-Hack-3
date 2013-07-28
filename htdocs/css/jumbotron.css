@@ -211,6 +211,16 @@ background-image:
     border-radius: 0px;
 }
 
+body.working-page {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.working-page-image {
+	width: 100%;
+	display: none;
+}
+
 /* Rating stars! */
 
 i.star {
@@ -278,6 +288,15 @@ width:
 
 .person-row {
     margin-bottom: 15px;
+}
+
+/* Talent Specific css names */
+.talent-job-title {
+
+}
+
+.talent-job-description {
+
 }
 
 @media all and (max-width: 800px) {
