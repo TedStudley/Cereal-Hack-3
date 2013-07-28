@@ -94,6 +94,10 @@ h2, h3, h4, h5 {
 	clear: both;
 }
 
+.quickjobbr-logo-main {
+	max-width: 100%;
+}
+
 .navbar-brand { 
 	background-image:url(../images/quickjobbr-icon-40.png);
 	background-repeat:no-repeat;
@@ -116,6 +120,11 @@ h2, h3, h4, h5 {
     box-shadow: none;
     background-image:none;
     border:0;
+}
+
+.btn-login {
+    background-color: #67BCDB;
+    color: #FFFFFF;
 }
 
  /* Rating stars! */
@@ -156,4 +165,14 @@ i.star-5 {
     footer {
 	display: none;
     }    
+
+
+/* Employee Specific css names */
+/* Initially the same as jon-* */
+.person-name {
+	height: 30px;
+}
+
+.person-description {
+	height: 44px;
 }
