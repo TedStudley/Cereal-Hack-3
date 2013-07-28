@@ -165,7 +165,7 @@ i.star-5 {
     footer div.full {
 	display: none;
     }    
-    footer div.partial {
+    footer div.small {
 	display: block;
 }
 
@@ -173,8 +173,13 @@ i.star-5 {
     footer div.full {
 	display: block;
     }    
-    footer div.partial {
+    footer div.small {
 	display: none;
+}
+
+footer div.full {
+    font-size: 50%;
+    background: #404040;
 }
 
 /* Employee Specific css names */
