@@ -2,6 +2,25 @@
 body {
   padding-top: 50px;
   padding-bottom: 20px;
+  color: #404040;
+  font-family: "skolar", "Georgia", serif;
+  font-size: 14px;
+  line-height: 1.42857;
+}
+
+/* typography yo */
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "ff-meta-web-pro", "Helvetica Neue", arial, sans-serif;
+	
+}
+
+h1 {
+	font-weight: 700
+}
+
+h2 {
+	font-weight: 400
 }
 
 /* Set widths on the navbar form inputs since otherwise they're 100% wide */
