@@ -1,0 +1,102 @@
+<?php include 'login.php' ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<title>QuickJobbr</title>
+
+<!-- Bootstrap core CSS -->
+<link rel="stylesheet"	href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/css/bootstrap.min.css" />
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    
+	<script type="text/javascript" src="//use.typekit.net/nkz1qbn.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+<!-- Custom styles for this template -->
+<link href="css/jumbotron.css" rel="stylesheet">
+</head>
+
+<body>
+
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<button type="button" class="navbar-toggle" data-toggle="collapse"
+				data-target=".nav-collapse">
+				<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+					class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#"></a>
+			<div class="nav-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#browse">Browse Jobs</a></li>
+					<li><a href="#tips">Job Tips</a></li>
+				</ul>
+ 
+				<ul class="nav navbar-nav pull-right">
+					<li><a href="#profile">Welcome, <?php print $_SESSION['user'] ?>!</a></li>
+					<li><a href="#signout">Sign Out</a></li>
+				</ul>
+			</div>
+			<!--/.nav-collapse -->
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="nav navbar-form pull-right">
+					<input type="text" class="job-form form-control" placeholder="What?">
+					<input type="text" class="location-form form-control" placeholder="Where?">
+					<button type="submit" class="btn btn-default">Find Jobs &raquo;</button>
+				</div>
+			</div>
+		</div>
+		<!-- Main jumbotron for a primary marketing message or call to action -->
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					Back to more jobs
+				</div>
+				<div class="col-lg-1">
+					Save Job					
+				</div>
+			</div>
+			<div class="row">
+				<h2>HackerLab Associate Hacker in Sacramento, CA</h2>
+			</div>
+			
+			<div class="col-lg-7 job-container"></div>
+			<div class="col-lg-7 job-container-verbose">
+				<div class="row">
+					<b>Job Description</b><br>
+					<p>Sunt nesciunt ut, Odd Future enim officia plaid synth Banksy polaroid anim shoreditch you probably haven't heard of them sed. Dolore viral retro aliqua nostrud, small batch Brooklyn single-origin coffee swag ethnic. Delectus lomo semiotics leggings. Food truck mlkshk keffiyeh dreamcatcher, aliquip try-hard retro photo booth magna odio nesciunt Tonx labore post-ironic. Artisan freegan organic consequat, ullamco selvage semiotics polaroid actually. Viral eu sunt, messenger bag 3 wolf moon chambray authentic you probably haven't heard of them intelligentsia master cleanse fap forage yr mumblecore brunch. Church-key literally cupidatat, asymmetrical ex craft beer 8-bit yr Williamsburg voluptate messenger bag.</p>
+					<p>Bicycle rights occaecat tote bag, beard quinoa blue bottle delectus sunt seitan enim. Truffaut put a bird on it et sunt biodiesel, Carles lomo. Raw denim chambray blog deep v, tote bag Etsy retro anim mlkshk delectus readymade blue bottle. Cosby sweater ethnic irure vero dolor letterpress. Cliche cray excepteur, nihil in hoodie butcher gastropub bicycle rights wolf quinoa accusamus church-key. Pariatur post-ironic disrupt, irony Bushwick Odd Future fixie bespoke single-origin coffee non brunch assumenda sustainable fap. Dolore pitchfork craft beer, blog duis put a bird on it squid next level keffiyeh farm-to-table Truffaut pork belly.</p>
+				</div>
+				<div class="row">
+					<b>Qualifications</b><br>
+					<p>Sunt nesciunt ut, Odd Future enim officia plaid synth Banksy polaroid anim shoreditch you probably haven't heard of them sed. Dolore viral retro aliqua nostrud, small batch Brooklyn single-origin coffee swag ethnic. Delectus lomo semiotics leggings. Food truck mlkshk keffiyeh dreamcatcher, aliquip try-hard retro photo booth magna odio nesciunt Tonx labore post-ironic. Artisan freegan organic consequat, ullamco selvage semiotics polaroid actually. Viral eu sunt, messenger bag 3 wolf moon chambray authentic you probably haven't heard of them intelligentsia master cleanse fap forage yr mumblecore brunch. Church-key literally cupidatat, asymmetrical ex craft beer 8-bit yr Williamsburg voluptate messenger bag.</p>
+					<p>Bicycle rights occaecat tote bag, beard quinoa blue bottle delectus sunt seitan enim. Truffaut put a bird on it et sunt biodiesel, Carles lomo. Raw denim chambray blog deep v, tote bag Etsy retro anim mlkshk delectus readymade blue bottle. Cosby sweater ethnic irure vero dolor letterpress. Cliche cray excepteur, nihil in hoodie butcher gastropub bicycle rights wolf quinoa accusamus church-key. Pariatur post-ironic disrupt, irony Bushwick Odd Future fixie bespoke single-origin coffee non brunch assumenda sustainable fap. Dolore pitchfork craft beer, blog duis put a bird on it squid next level keffiyeh farm-to-table Truffaut pork belly.</p>
+				</div>
+				<div class="row">
+					<b>Requirements</b><br>
+					<p>Sunt nesciunt ut, Odd Future enim officia plaid synth Banksy polaroid anim shoreditch you probably haven't heard of them sed. Dolore viral retro aliqua nostrud, small batch Brooklyn single-origin coffee swag ethnic. Delectus lomo semiotics leggings. Food truck mlkshk keffiyeh dreamcatcher, aliquip try-hard retro photo booth magna odio nesciunt Tonx labore post-ironic. Artisan freegan organic consequat, ullamco selvage semiotics polaroid actually. Viral eu sunt, messenger bag 3 wolf moon chambray authentic you probably haven't heard of them intelligentsia master cleanse fap forage yr mumblecore brunch. Church-key literally cupidatat, asymmetrical ex craft beer 8-bit yr Williamsburg voluptate messenger bag.</p>
+					<p>Bicycle rights occaecat tote bag, beard quinoa blue bottle delectus sunt seitan enim. Truffaut put a bird on it et sunt biodiesel, Carles lomo. Raw denim chambray blog deep v, tote bag Etsy retro anim mlkshk delectus readymade blue bottle. Cosby sweater ethnic irure vero dolor letterpress. Cliche cray excepteur, nihil in hoodie butcher gastropub bicycle rights wolf quinoa accusamus church-key. Pariatur post-ironic disrupt, irony Bushwick Odd Future fixie bespoke single-origin coffee non brunch assumenda sustainable fap. Dolore pitchfork craft beer, blog duis put a bird on it squid next level keffiyeh farm-to-table Truffaut pork belly.</p>
+				</div>
+			</div>
+		
+		</div>
+	</div>
+	<!-- /container -->
+
+	<!-- RON! FIX THE FOOTER! -->
+
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/js/bootstrap.min.js"></script>
+</body>
+</html>
