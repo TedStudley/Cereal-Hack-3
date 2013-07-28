@@ -48,8 +48,13 @@
 	</div>
 
 	<div class="container">
-		<div class="row">
-			<div class="col-lg-12">
+		<div class="full row">
+			<div class="col-lg-4 pull-left">
+				<div class="nav navbar-form pull-left">
+				<a href="javascript:back">&laquo; Find more talent</a>
+				</div>
+			</div>
+			<div class="col-lg-6 pull-right">
 				<div class="nav navbar-form pull-right">
 					<input type="text" class="job-form form-control" placeholder="What?">
 					<input type="text" class="location-form form-control" placeholder="Where?">
@@ -60,28 +65,39 @@
 		<!-- Main jumbotron for a primary marketing message or call to action -->
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-6">
-					<p><a class="btn btn-default" href="#">Find more talent</a></p>
-				</div>
-				<div class="col-lg-6">
-					<p class="clear italic">Save to Talent Pool</p>			
-				</div>
-			</div>
-			<div class="row">
-				<h1>Nodda Template</h1>
+				<h1>Nodda Template
+				<span>
+					<a class="btn btn-default btn-flat" href="#">Save to Talent Pool</a>
+				</span>
+				<span>
+					<a class="btn btn-default btn-flat btn-offer" href="#">Make Offer</a>
+				</span>
+				</h1>
 			
 				<div class="col-lg-4 job-container-verbose">
 					<img alt="rosa" src="images/rosa.jpg"  class="img-thumbnail person-picture">
 				</div>
-				<div class="col-lg-8 job-container-verbose">
+				<div class="col-lg-4 job-container-verbose">
+				<?php if (isset($_GET['review'])) { ?>
+	    <form method="post" class="form-inline">
+            <p>Your rating:
+	    <i id="rating" class="star"></i>
+	    </p>
+	   <div class="hidden" id="comments">
+	     <p>Your Comments</p>
+	     <textarea class="form-control" rows="4"></textarea>
+	     <button type="submit" class="btn-primary btn-large">Complete Review</button>
+	   </div>
+				<?php } else { ?>
 					<i class="star star-4 pull-left"></i><br>
 					<p>Works hard like a machine. Nodda has handled many jobs ranging from the monotonous dog walking to assisting in with open heart surgery.</p>
 					<p>Nadda has mastered the art of work life balance by finding enlightenment at the early age of 6 when she realize that it was she who took the cookie from the cookie jar.</p>
+				<?php } ?>
 				</div>
 			</div>
 			
 			<div class="row">
-				<div class="col-lg-12 job-container-verbose">
+				<div class="col-lg-8 job-container-verbose">
 			  		<h2>Qualifications</h2>
 			  		<ul>
 			    		<li>Never sleeps</li>
@@ -93,7 +109,7 @@
 			</div>
 			
 			<div class="row">
-				<div class="col-lg-12 job-container-verbose">
+				<div class="col-lg-8 job-container-verbose">
 			  		<h2>Employment History</h2>
 			  		<h3 class="talent-job-title">Wizard</h3>
 			  		<p class="talent-job-description">Cillum reprehenderit nisi, occupy cardigan proident jean shorts fugiat. Pop-up Portland art party, tumblr gluten-free fap Wes Anderson laboris organic biodiesel Echo Park Brooklyn. Occupy hoodie swag, small batch whatever seitan messenger bag lomo Brooklyn. Blue bottle aute elit qui. Aliqua Austin deep v beard bespoke. Sustainable bitters 8-bit, PBR whatever food truck chillwave stumptown iPhone ea voluptate cliche. Dolore actually enim, adipisicing eiusmod aesthetic ugh art party officia pariatur.</p>
@@ -111,5 +127,6 @@
 
 <script src="http://code.jquery.com/jquery.js"></script>
 <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/js/bootstrap.min.js"></script>
+<script src="js/rating.js"></script>
 </body>
 </html>
