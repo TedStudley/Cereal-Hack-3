@@ -86,8 +86,11 @@ h2 {
 }
 
 .navbar-brand { 
-	background-image:url(../images/quickjobbr-logo-40.png);
+	background-image:url(../images/quickjobbr-icon-40.png);
 	background-repeat:no-repeat;
+	margin-top: 5px;
+	width: 41px;
+	height: 40px;
 }
 
 /* buttons! what! */
