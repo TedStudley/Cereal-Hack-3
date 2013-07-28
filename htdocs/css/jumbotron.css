@@ -14,16 +14,12 @@ font-family: "skolar"
 
 
 .jumbotron {
-background-image:
-    url(../images/shaking-hands.jpg);
-background-repeat:
-    no-repeat;
+	background-image:url(../images/shaking-hands.jpg);
+	background-repeat: no-repeat;
     background-size: 100%;
-background-attachment:
-    fixed;
-background-position:
-    center;
     border-radius: 0px;
+	background-attachment: fixed;
+	background-position: top;
 	}
 	
 	.jumbotron p {
