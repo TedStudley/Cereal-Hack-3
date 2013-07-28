@@ -278,6 +278,15 @@ width:
     margin-bottom: 15px;
 }
 
+/* Talent Specific css names */
+.talent-job-title {
+
+}
+
+.talent-job-description {
+
+}
+
 @media all and (max-width: 800px) {
     .full {
 display:
