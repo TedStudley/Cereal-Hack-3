@@ -9,8 +9,8 @@ $network = $session->getParameters("network");
     
 $tropo = new Tropo(); 
     
-$tropo->call($to, array('network'=>'SMS')); 
-$tropo->say("Hi ".$name.", ". $msg ); 
+$tropo->call($to, array('network'=>$network)); 
+$tropo->say($msg); 
 
 return $tropo->RenderJson(); 
 
