@@ -169,6 +169,21 @@ i.star-5 {
     float:none;
     width:auto;
 }
+
+/* Employee Specific css names */
+/* Initially the same as job-* */
+.person-name {
+	height: 30px;
+}
+
+.person-description {
+	height: 44px;
+}
+
+.person-picture {
+	float: right;
+}
+
 @media screen and (max-width: 800px) {
     .full {
 	display: none;
@@ -194,16 +209,3 @@ footer div.full h2 {
     font-size: 50%;
 }
 
-/* Employee Specific css names */
-/* Initially the same as jon-* */
-.person-name {
-	height: 30px;
-}
-
-.person-description {
-	height: 44px;
-}
-
-.person-picture {
-	float: right;
-}
