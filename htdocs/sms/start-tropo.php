@@ -43,7 +43,7 @@ $html = file_get_contents($text_msg_url);
 //}
 
 // go to profile page that employer sees
-header("Location: $goto");
+//header("Location: $goto");
 ?>
 
 
