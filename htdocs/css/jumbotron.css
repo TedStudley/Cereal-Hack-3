@@ -90,6 +90,14 @@ h2, h3, h4, h5 {
 	height:24px;
 }
 
+.quickjobbr-logo-main {
+	background-image:url(../images/quickjobbr-logo-400.png);
+	background-repeat:no-repeat;
+	margin-top: 5px;
+	width: 401px;
+	height: 101px;
+}
+
 .navbar-brand { 
 	background-image:url(../images/quickjobbr-icon-40.png);
 	background-repeat:no-repeat;
